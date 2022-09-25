@@ -3,6 +3,7 @@
   width: 100vw;
   display: flex;
   align-items: center;
+  background-color: var(--white);
 }
 
 .title-header {
@@ -25,13 +26,14 @@
 
 .title-header > hr {
   width: 15rem;
-  border-width: .1rem;
-  border-color: var(--light-blue);
+  border: .1rem solid var(--light-blue);
   margin: .5rem 0;
+  
 }
 
 .title-header > p {
   font-size: 2rem;
+  text-align: center;
 }
 
 .donate-header {
@@ -60,7 +62,7 @@
 @media screen and (max-width: 990px) {
   .header-section {
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 1rem;
   }
 
   .title-header {
@@ -69,7 +71,7 @@
   }
 
   .title-header > h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
   .title-header > hr {
@@ -80,7 +82,7 @@
   }
   
   .title-header > p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .donate-header {

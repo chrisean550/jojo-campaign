@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+hr {
+  border-style: none;
+}
+
 iframe {
   border: none;
 }
@@ -38,3 +42,4 @@ i {
   cursor: pointer;
   transition: all ease-in-out .5s;
 }
+

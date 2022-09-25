@@ -1,6 +1,5 @@
 .mission-section{
   width: 100vw;
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,34 +10,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--light-blue-transparent);
-  width: 150rem;
+  /* background-color: var(--light-blue-transparent); */
   height: 60rem;
   max-width: 95vw;
 }
 
 .mission-content > h3 {
   font-family: 'Oswald', sans-serif;
-  color: var(--navy);
-  font-weight: 400;
-  font-size: 3rem;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 5rem;
 }
 
 .mission-content > hr {
-  width: 30rem;
-  border-width: .1rem;
-  border-color: var(--light-blue);
-  margin: 2rem 0;
+  width: 100%;
+  border: .2rem solid var(--light-blue);
+  margin: 2rem 0 3rem 0;
 }
 
-.mission-content > p {
+.mission-content > q {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 6rem;
   color: var(--black);
-  width: 60rem;
-  max-width: 90vw;
-  line-height: 2.5rem;
   text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+
+  .mission-content > h3 {
+    font-size: 4rem;
+  }
+  
+  .mission-content > q {
+    font-size: 4rem;
+  }
 }
 
 

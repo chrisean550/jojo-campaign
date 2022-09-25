@@ -11,7 +11,7 @@ const AccordionItem = () => {
       changeIconStyle({transform: 'rotate(0deg)'});
       changeIsOpen(false);
     } else {
-      changeResStyle({height: '10rem', padding: '2rem'});
+      changeResStyle({height: '16rem', padding: '2rem'});
       changeIconStyle({transform: 'rotate(-180deg)'});
       changeIsOpen(true);
     }

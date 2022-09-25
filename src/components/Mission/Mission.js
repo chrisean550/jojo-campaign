@@ -9,7 +9,7 @@ const Mission = () => {
       <div className='mission-content'>
         <h3>{heading}</h3>
         <hr/>
-        <p>{paragraph}</p>
+        <q>{paragraph}</q>
       </div>
     </section>
   );

@@ -1,0 +1,40 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --white: #FFF;
+  --black: #000;
+  --blue: #2383AC;
+  --light-blue: #15ADCE;
+  --navy: #00103A;
+  --light-blue-transparent: rgba(21, 173, 206, .30);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
+
+i {
+  font-size: 3rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all ease-in-out .5s;
+}

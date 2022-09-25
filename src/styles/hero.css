@@ -1,0 +1,74 @@
+
+.hero-section{
+  width: 100vw;
+  min-height: 90vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: linear-gradient(90deg, var(--blue) 50%, #FFFFFF00 60%),
+  url('../imgs/jojo-header.jpg');
+}
+
+.content {
+  width: 50%;
+  max-width: 95vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 1rem 10rem;
+}
+
+.heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.learn-more {
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: var(--white);
+  background-color: var(--navy);
+  border: .2rem solid var(--white) ;
+  height: 5rem;
+  width: 17rem;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.learn-more:hover {
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .hero-section{
+    background-position: 10% 50%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .hero-section{
+    width: 100vw;
+    background-position: 60% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, var(--light-blue-transparent) 100%, #FFFFFF00 80%),
+    url('../imgs/jojo-header.jpg');
+  }
+
+  .content {
+    width: 100%;
+    max-width: 99vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+  }
+}

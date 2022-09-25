@@ -1,0 +1,44 @@
+.mission-section{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-blue-transparent);
+  width: 150rem;
+  height: 60rem;
+  max-width: 95vw;
+}
+
+.mission-content > h3 {
+  font-family: 'Oswald', sans-serif;
+  color: var(--navy);
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.mission-content > hr {
+  width: 30rem;
+  border-width: .1rem;
+  border-color: var(--light-blue);
+  margin: 2rem 0;
+}
+
+.mission-content > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: var(--black);
+  width: 60rem;
+  max-width: 90vw;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+

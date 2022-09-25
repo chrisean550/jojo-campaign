@@ -1,0 +1,50 @@
+.issues-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem;
+}
+
+.issues-section > h3 {
+  font-family: 'Oswald', sans-serif;
+  color: var(--navy);
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.issues-section > hr {
+  width: 15rem;
+  border-width: .1rem;
+  border-color: var(--light-blue);
+  margin: 2rem 0;
+}
+
+.accordion {
+ width: 80rem;
+ max-width: 95vw;
+}
+
+.accordion-item {
+  border: solid .2rem var(--navy);
+  margin: 1rem 0;
+}
+
+.accordion-item-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.accordion-item-response {
+  color: var(--black);
+  font-size: 2rem;
+  /* padding: 2rem; */
+  overflow: hidden;
+  transition: all ease-in-out .5s;
+}

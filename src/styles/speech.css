@@ -1,0 +1,72 @@
+
+.speech-section {
+  width: 100vw;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap-reverse;
+}
+
+.speech-content {
+  width: 50rem;
+  max-width: 95vw;
+}
+
+.speech-content > h3 {
+  font-family: 'Oswald', sans-serif;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 3rem;
+  width: 30rem;
+}
+
+.speech-content > hr {
+  width: 30rem;
+  border-width: .1rem;
+  border-color: var(--white);
+  margin: 1rem 0;
+}
+
+.speech-content > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: var(--white);
+  width: 60rem;
+  max-width: 90vw;
+  line-height: 2.5rem;
+}
+
+.video {
+  width: 70rem;
+  max-width: 100vw;
+  height: 40rem;
+  margin: 5rem 0;
+}
+
+
+@media screen and (max-width: 1250px) {
+  .speech-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem 1rem 1rem;
+  }
+
+  .speech-content > h3 {
+    text-align: center;
+  }
+  
+  .speech-content > p {
+    text-align: center;
+  }
+
+  .video {
+    width: 70rem;
+    max-width: 100vw;
+    height: 40rem;
+    margin: 2rem 0;
+  }
+  
+}
+

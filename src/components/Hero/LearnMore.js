@@ -11,9 +11,9 @@ const LearnMore = () => {
   }
 
   return (
-    <button className='learn-more' onClick={scroll}>
+    <a href='#about' className='learn-more' onClick={scroll}>
       Learn More
-    </button>
+    </a>
   );
 }
 

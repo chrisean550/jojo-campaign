@@ -7,7 +7,7 @@ import Content from './Content';
 const About = () => {
   const {heading, paragraph} = content[0];
   return(
-    <section className='about-section'>
+    <section id='about' className='about-section'>
       <Image />
       <Content heading={heading} paragraph={paragraph}/>
     </section>

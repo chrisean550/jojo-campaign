@@ -22,10 +22,14 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {

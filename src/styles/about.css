@@ -30,6 +30,7 @@
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   font-size: 3rem;
+  margin-top: 2rem;
 }
 
 .about-content > hr {
@@ -75,7 +76,7 @@
 
 @media screen and (max-width: 990px) {
   .about-section{
-    height: 110vh;
+    height: 150vh;
   }
 
   .about-image{

@@ -1,5 +1,3 @@
-import content from './content.json';
-
 const Heading = ({text}) => {
 
   return(

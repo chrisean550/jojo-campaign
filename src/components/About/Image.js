@@ -8,7 +8,7 @@ import image6 from '../../imgs/about-imgs/115015.jpg'
 import image7 from '../../imgs/about-imgs/115058.jpg'
 import image8 from '../../imgs/about-imgs/165813.jpg'
 
-
+/* eslint-disable */
 const Image = () => {
   const images = [image1, image2, image3, image4, image5, image6, image7, image8];
   const[background, setBackground] = useState({

@@ -13,7 +13,7 @@ const Footer = () => {
           <i className="fa-brands fa-facebook"></i>
           <i className="fa-brands fa-twitter"></i>
         </div>
-        <Donate context={'donate-footer'}/>
+        {/* <Donate context={'donate-footer'}/> */}
       </div>
     </section>
   );

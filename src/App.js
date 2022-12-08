@@ -4,7 +4,7 @@ import Mission from './components/Mission/Mission';
 import Speech from './components/Speech/Speech';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Issues from './components/Issues/Issues';
+import Values from './components/Values/Values';
 function App() {
   return (
     <div className="app">
@@ -13,7 +13,7 @@ function App() {
       <About />
       <Mission />
       <Speech />
-      <Issues />
+      <Values />
       <Footer />
     </div>
   );

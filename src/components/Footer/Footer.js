@@ -10,8 +10,9 @@ const Footer = () => {
       <div className='footer-content'>
         <Title context='title-footer'/>
         <div className='social-media'>
-          <i className="fa-brands fa-facebook"></i>
-          <i className="fa-brands fa-twitter"></i>
+          {/* <i className="fa-brands fa-facebook"></i> */}
+          <a href='https://www.instagram.com/jojo_burgess_for_mayor/'><i className="fa-brands fa-instagram"></i></a>
+          <a href='https://twitter.com/JoJoBForMayor'><i className="fa-brands fa-twitter"></i></a>
         </div>
         {/* <Donate context={'donate-footer'}/> */}
       </div>

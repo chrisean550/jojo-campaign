@@ -50,9 +50,9 @@
 
 @media screen and (max-width: 1100px) {
   .about-section{
-    height: 100vh;
+    /* height: 100vh; */
     padding: 2rem 0;
-    display: block;
+    /* display: block; */
   }
 
   .about-image{
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 990px) {
   .about-section{
-    height: 160vh;
+    /* height: 160vh; */
   }
 
   .about-image{

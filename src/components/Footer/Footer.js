@@ -15,7 +15,7 @@ const Footer = () => {
           <a href='https://twitter.com/JoJoBForMayor'><i className="fa-brands fa-twitter"></i></a>
 
         </div>
-        {/* <Donate context={'donate-footer'}/> */}
+        <Donate context={'donate-footer'}/>
       </div>
     </section>
   );

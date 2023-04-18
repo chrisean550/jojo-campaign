@@ -9,7 +9,7 @@ const Content = ({heading, line1, line2, line3, line4, line5}) => {
       <p>{line3}</p><br/>
       <p>{line4}</p><br/>
       <p>{line5}</p><br/><br/>
-      <p> <a href={Image}>Click <div> here </div> to see the event flyer!</a></p>
+      <p> <a href={Image}>Click <span> here </span> to see the event flyer!</a></p>
     </div>
   );
 }

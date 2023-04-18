@@ -47,10 +47,11 @@
   line-height: 3rem;
 }
 
-.upcoming-event-content > p > a > div {
+.upcoming-event-content > p > a{
   padding: 0 .75rem;
   color: var(--blue);
   text-decoration: underline;
+  display: inline;
 }
 
 @media screen and (max-width: 1100px) {
@@ -72,10 +73,11 @@
     height: 50%;
     justify-content: center;
     align-items: center;
+    padding: 3rem 0;
   }
 
   .upcoming-event-content > p {
-    max-width: 95vw;
+    max-width: 99%;
   }
 }
 
